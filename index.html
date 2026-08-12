@@ -10,7 +10,13 @@
 
     <p> esta es una pagina solo para geis. </p>
 
-    <button> presiona aca si eres gei </button>
+    <button onclick="cambiarTexto()"> presiona aca si eres gei </button>
+
+    <script>
+        function cambiarTexto() {
+            document.querySelector("p").textContent = "Bienvenido al mundo de los gei";
+        }
+    </script>
     
 </body>
 </html>
