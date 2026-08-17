@@ -14,7 +14,9 @@
 
     <script>
         function cambiarTexto() {
-            document.querySelector("p").textContent = "Bienvenido al mundo de los gei";
+            let nuevoTexto = document.createElement("p");
+            nuevoTexto.textContent = "Bienvenido al mundo de los gei";
+            document.body.appendChild(nuevoTexto);
         }
     </script>
     
